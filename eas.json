@@ -1,8 +1,8 @@
 {
   "builds": {
-    "android": {
-      "release": {
-        "workflow": "managed"
+   "preview": {
+      "android": {
+        "buildType": "apk"
       }
     }
   }
