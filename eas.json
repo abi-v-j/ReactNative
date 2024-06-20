@@ -1,5 +1,7 @@
-
 {
+  "cli": {
+    "version": ">= 0.34.1"
+  },
   "build": {
     "preview": {
       "android": {
@@ -17,6 +19,10 @@
     "preview4": {
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
   }
 }
